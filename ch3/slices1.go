@@ -15,4 +15,7 @@ func main() {
 	for i := 0; i < len(x); i++ {
 		fmt.Printf("x[%d] = %d\n", i, x[i])
 	}
+
+	fmt.Println("\nIs null?")
+	fmt.Println(x == nil)
 }
