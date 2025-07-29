@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	for {
+	for { // Infinite for
 		fmt.Println("Hello")
 	}
 }
